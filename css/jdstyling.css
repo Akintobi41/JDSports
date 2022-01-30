@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin-top: 10px;
+}
+ul li {
+  font-size: 0.9rem;
+  margin-left: 25px;
+}
+.main-header {
+  display: flex;
+}
+.logo-small {
+  width: 90px;
+  height: 90px;
+  border: solid 1px black;
+  border-radius: 48%;
+  background: black;
+}
+.logo-text {
+  color: #fff;
+  font-size: 4rem;
+  padding: 9px;
+  box-sizing: border-box;
+}
+.logo-large-text {
+  width: 55%;
+  line-height: 15px;
+}
+strong {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+span {
+  font-size: 1.08rem;
+  font-weight: bold;
+}
