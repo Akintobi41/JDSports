@@ -142,3 +142,15 @@ nav a:hover {
 nav a:active {
   color: black;
 }
+.horizontal-ad {
+  width: 100%;
+  height: 50px;
+  background-color: #fee000;
+  margin-top: 1.3rem;
+}
+.ad-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
