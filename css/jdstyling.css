@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  overflow-x: hidden;
+}
+
 ul {
   padding: 10px 50px;
   display: flex;
@@ -11,23 +15,57 @@ ul {
 }
 ul li {
   font-size: 0.9rem;
+  font-weight: bold;
   margin-left: 25px;
 }
-.main-header {
-  display: flex;
+a {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
 }
-.logo-small {
-  width: 90px;
-  height: 90px;
-  border: solid 1px black;
-  border-radius: 48%;
-  background: black;
+a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.main-header {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-content: center;
+  margin-top: -30px;
+}
+.logo-large {
+  display: flex;
+  align-items: center;
 }
 .logo-text {
   color: #fff;
   font-size: 4rem;
   padding: 9px;
   box-sizing: border-box;
+}
+form {
+  position: relative;
+  flex-grow: 1;
+  align-self: center;
+  text-align: center;
+  left: 70px;
+}
+input {
+  width: 32%;
+  height: 2.8em;
+  padding: 10px;
+  box-sizing: border-box;
+}
+input[type="text"]:hover {
+  border: solid 1px rgb(167, 157, 157);
+}
+input[type="text"]:focus {
+  outline: none;
+  border: solid 1px #ccc;
 }
 .logo-large-text {
   width: 55%;
@@ -40,4 +78,67 @@ strong {
 span {
   font-size: 1.08rem;
   font-weight: bold;
+}
+.search-button {
+  width: 15%;
+  height: 2.85em;
+  border: none;
+  color: black;
+  background-color: #43d6b1;
+}
+.search-button:hover {
+  color: white;
+  background-color: #0b8c6c95;
+}
+.submit-button {
+  margin-left: 1em;
+  width: 25%;
+  height: 2.8em;
+  text-align: left;
+  background-color: #cdcdcd;
+  border: solid 1px #cdcdcd;
+}
+.span-text {
+  font-weight: normal;
+  font-size: 0.8rem;
+  margin-left: 15px;
+}
+
+.heart-icon {
+  display: inline;
+  margin-left: 0.3rem;
+  margin-bottom: -0.2rem;
+}
+.globe-icon {
+  display: inline;
+  margin-left: 0.3rem;
+  margin-bottom: -0.1rem;
+}
+.microphone-icon {
+  position: absolute;
+  right: 505px;
+  bottom: 10px;
+}
+::placeholder {
+  color: grey;
+  opacity: 1;
+  font-size: 0.75rem;
+}
+nav {
+  text-align: center;
+  margin-left: -3.3rem;
+}
+nav a {
+  margin-left: 2.2rem;
+  font-size: 1rem;
+}
+.nav-text {
+  color: orange;
+}
+nav a:hover {
+  color: #b9b9b9;
+  text-decoration: none;
+}
+nav a:active {
+  color: black;
 }
