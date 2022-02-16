@@ -263,3 +263,45 @@ nav a:active {
   color: black;
   border: solid 1px white;
 }
+.catalogue-3 {
+  width: 49%;
+  height: 500px;
+}
+.catalogue-3-link {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.catalogue-3-link:hover {
+  text-decoration: none;
+}
+.nav-symbol {
+  font-size: 1.3rem;
+  transition: all 10.2s;
+}
+.nav-symbol:hover {
+  position: relative;
+  left: 2px;
+}
+.catalogue-3-image {
+  width: 100%;
+  height: 458px;
+}
+h2 {
+  margin: 0 3rem;
+}
+aside {
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  margin: 1.5rem 3rem;
+}
+.summary {
+  width: 32%;
+  height: 615px;
+}
+.summary-card {
+  width: 395px;
+}
+h5 {
+  margin-top: 1rem;
+}
