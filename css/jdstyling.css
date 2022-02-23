@@ -1,11 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   /* outline: solid 1px red; */
 }
 body {
-  overflow-x: hidden;
+  width: 100%;
+  max-width: 1500px;
 }
 
 ul {
@@ -44,7 +46,6 @@ a:hover {
   color: #fff;
   font-size: 4rem;
   padding: 9px;
-  box-sizing: border-box;
 }
 form {
   position: relative;
@@ -53,16 +54,18 @@ form {
   text-align: center;
   left: 70px;
 }
-.search-field {
-  width: 280px;
-  height: 2.8em;
-  padding: 10px;
-  box-sizing: border-box;
+input[type="searchbox"] {
+  font-size: 0.9rem;
+  width: 35%;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+  padding-left: 0.8rem;
+  padding-right: 1.5rem;
 }
-input[type="text"]:hover {
+input[type="searchbox"]:hover {
   border: solid 1px rgb(167, 157, 157);
 }
-input[type="text"]:focus {
+input[type="searchbox"]:focus {
   outline: none;
   border: solid 1px #ccc;
 }
@@ -80,7 +83,7 @@ span {
 }
 .search-button {
   width: 15%;
-  height: 2.85em;
+  padding: 0.55rem;
   border: none;
   color: black;
   background-color: #43d6b1;
@@ -91,8 +94,8 @@ span {
 }
 .submit-button {
   margin-left: 1em;
+  padding: 0.55rem;
   width: 25%;
-  height: 2.8em;
   text-align: left;
   background-color: #cdcdcd;
   border: solid 1px #cdcdcd;
@@ -115,8 +118,8 @@ span {
 }
 .microphone-icon {
   position: absolute;
-  right: 508px;
-  bottom: 10px;
+  right: 53.5%;
+  bottom: 20%;
 }
 ::placeholder {
   color: grey;
@@ -305,3 +308,135 @@ aside {
 h5 {
   margin-top: 1rem;
 }
+.prompt {
+  font-weight: bold;
+  margin-right: 0.4rem;
+}
+.form-title {
+  margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+.form-links {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.footer-form {
+  height:40px;
+  padding: 1.8rem 0;
+}
+.footer-form-1 {
+  width: 25%;
+  border: solid 1px #ccc;
+}
+.footer-form-2 {
+  width: 5%;
+  background-color: lightgreen;
+  color: white;
+  border: solid 1px lightgreen;
+}
+.form-link {
+  flex-grow: 0.3;
+}
+.facebook-wrapper{ 
+  margin-left: 2rem;
+  width:32px;
+  height:32px;
+  border-radius: 50%;
+  overflow:hidden;
+  position:relative;
+  display:inline-block;
+  border-radius:50%;
+  background-color:black;
+}
+.tiktok-wrapper{ 
+  width:40px;
+  height:40px;
+  overflow:hidden;
+  position:relative;
+  display:inline-block;
+  border-radius:15%;
+  background-color:black;
+}
+.youtube-wrapper,
+.twitter-wrapper,
+.instagram-wrapper{
+   height:40px;
+   width:40px;
+   overflow:hidden;
+   position:relative;
+   display:inline-block;
+   border-radius:100%;
+   background-color: black;
+}
+.facebook-icon{ 
+  width:39px;
+  height:39px;
+  position:absolute;
+  top:0;
+  left:0;
+  transform:translate(-10%,-10%);
+}
+.youtube-icon{ 
+  width:23px;
+  height:23px;
+  position:absolute;
+  top:0;
+  left:0;
+  transform:translate(40%,60%);
+}
+.twitter-icon{ 
+  width:25px;
+  height:25px;
+  position:absolute;
+  top:0;
+  left:0;
+  transform:translate(35%,50%);
+}
+.instagram-icon{ 
+  width:27px;
+  height:27px;
+  position:absolute;
+  top:0;
+  left:0;
+  transform:translate(25%,40%);
+}
+.tiktok-icon{ 
+  width:30px;
+  height:30px;
+  position:absolute;
+  top:0;
+  left:0;
+  transform:translate(10%,30%);
+}
+.footer-ad{  
+  display: flex;
+   justify-content: space-between;
+   width: 92%;
+   margin: 1.5rem 3rem;
+}
+.gift-card{ 
+  width:30%;
+  height:400px;
+  background-color: #2e2e2e;
+}
+.gift-card-title{ 
+  text-align: center;
+  margin-top:2rem;
+}
+.gift-card-image{ 
+  margin-left: 4.7rem;
+  margin-bottom: .5rem;
+}
+.gift-card-price{ 
+    text-align: center;
+}
+.gift-card-summary{ 
+  font-size: .7rem;
+}
+
