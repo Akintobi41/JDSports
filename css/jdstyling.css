@@ -499,13 +499,18 @@ h5 {
 }
 .store-searchbox {
   width: 100%;
-  height: 35%;
-  margin: 0.4rem 0;
+  height: 40%;
+  margin: 0.2rem 0;
 }
 .searchbox-button {
   width: 2.5rem;
   height: 2rem;
+  color: white;
   position: absolute;
+  background-color: #43d6b1;
+  border: solid 1px #43d6b1;
+  right: 15px;
+  bottom: -8.5px;
 }
 .delivery-card {
   display: flex;
@@ -553,4 +558,77 @@ picture {
   text-align: right;
   margin: 1rem 0;
   line-height: 1.2rem;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 3rem 0 3rem 0rem;
+  padding: 2rem 2rem 3rem 2rem;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+li {
+  list-style-type: none;
+}
+.list-1 {
+  flex-basis: 20%;
+  margin-left: -1.9rem;
+}
+.list-2 {
+  flex-basis: 20%;
+}
+.list-3 {
+  flex-basis: 20%;
+}
+.list-4 {
+  flex-basis: 25%;
+}
+.fixed-tag {
+  padding: 0.2rem;
+  width: 12rem;
+  border: solid 1px #ccc;
+  background-color: #ccc;
+  background-clip: content-box;
+  position: fixed;
+  left: 0;
+  bottom: -8%;
+  visibility: hidden;
+}
+.fixed-tag-text {
+  padding: 2rem;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+.footer-icons {
+  width: 2rem;
+  height: 2rem;
+  /* margin-left: 0.8rem; */
+}
+.main-footer-link,
+.sub-tag-text,
+.copyright {
+  font-size: 0.8rem;
+}
+.main-footer-link {
+  margin-left: 0.5rem;
+}
+.main-footer-text {
+  word-spacing: 1px;
+}
+.sub-tag {
+  flex-grow: 2;
+}
+.main-footer {
+  flex-grow: 2.5;
+}
+.sub-tag-text {
+  text-align: center;
+}
+.footer-images {
+  margin-left: 1.5rem;
+  width: 70%;
 }
