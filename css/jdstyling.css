@@ -11,11 +11,11 @@ body {
 }
 
 ul {
-  padding: 10px 50px;
+  padding: 0.3rem 2.3rem;
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  margin-top: 10px;
+  margin-top: 0.5rem;
 }
 ul li {
   font-size: 0.9rem;
@@ -33,14 +33,14 @@ a:hover {
 
 .main-header {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 1.5rem;
   display: flex;
-  align-content: center;
+  justify-content: left;
   margin-top: -30px;
 }
 .logo-large {
-  display: flex;
-  align-items: center;
+  align-self: center;
+  margin-right: 2rem;
 }
 .logo-text {
   color: #fff;
@@ -49,21 +49,19 @@ a:hover {
 }
 form {
   position: relative;
-  flex-grow: 1;
   align-self: center;
-  text-align: center;
-  left: 70px;
+  text-align: right;
+  flex-basis: 60%;
 }
 input[type="searchbox"] {
-  font-size: 0.9rem;
-  width: 35%;
-  padding-top: 0.45rem;
-  padding-bottom: 0.45rem;
-  padding-left: 0.8rem;
-  padding-right: 1.5rem;
+  box-sizing: border-box;
+  font-size: 0.85rem;
+  width: 40%;
+  padding: 0.45rem 1.5rem 0.45rem 0.8rem;
 }
-input[type="searchbox"]:hover {
-  border: solid 1px rgb(167, 157, 157);
+input[type="searchbox"] :hover {
+  /* border: solid 1px rgb(167, 157, 157); */
+  font-size: 0.9rem;
 }
 input[type="searchbox"]:focus {
   outline: none;
@@ -71,7 +69,7 @@ input[type="searchbox"]:focus {
 }
 .logo-large-text {
   width: 55%;
-  line-height: 15px;
+  line-height: 1.1rem;
 }
 strong {
   font-size: 1.6rem;
@@ -95,7 +93,7 @@ span {
 .submit-button {
   margin-left: 1em;
   padding: 0.55rem;
-  width: 25%;
+  width: 33%;
   text-align: left;
   background-color: #cdcdcd;
   border: solid 1px #cdcdcd;
@@ -118,13 +116,13 @@ span {
 }
 .microphone-icon {
   position: absolute;
-  right: 53.5%;
-  bottom: 20%;
+  right: 51%;
+  bottom: 24%;
 }
 ::placeholder {
   color: grey;
   opacity: 1;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 nav {
   text-align: center;
@@ -327,10 +325,13 @@ h5 {
   margin-left: 25px;
 }
 .footer-form {
-  height: 40px;
-  padding: 1.8rem 0.5rem;
+  padding: 1.1rem 0.5rem;
 }
-
+.footer-form-1:focus,
+.footer-form-1:active {
+  outline: none;
+  border: solid 1px #ccc;
+}
 .footer-form::placeholder {
   font-size: 0.8rem;
 }
@@ -339,7 +340,7 @@ h5 {
   border: solid 1px #ccc;
 }
 .footer-form-2 {
-  width: 5%;
+  /* width: 5%; */
   background-color: lightgreen;
   color: white;
   border: solid 1px lightgreen;
