@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
 }
 body {
   width: 100%;
@@ -229,9 +229,12 @@ nav a:active {
   width: 365px;
   height: 365px;
 }
-.seed {
+.catalogue-link{ 
+   font-weight: 400;
+}
+/* .seed { */
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 .catalogue-link:hover {
   text-decoration: none;
@@ -299,12 +302,15 @@ aside {
 }
 .summary {
   width: 32%;
-  height: 615px;
+  /* height: 615px; */
+  margin-bottom: 1rem;
 }
 .summary-card {
   width: 395px;
 }
 h5 {
+  font-size: 1.3rem;
+  font-weight: 550;
   margin-top: 1rem;
 }
 .prompt {
@@ -334,7 +340,8 @@ h5 {
   margin-left: 25px;
 }
 .footer-form {
-  padding: 1.1rem 0.5rem;
+  width: 8%;
+  padding: 1.1rem;
 }
 .footer-form-1:focus,
 .footer-form-1:active {
@@ -471,7 +478,7 @@ h5 {
   margin: 0 15px;
 }
 .gift-card-button {
-  margin: 2.2rem 0.1rem 0 0.1rem;
+  margin: 1.7rem 0.1rem 0 0.1rem;
   padding: 0.6rem 1rem;
   width: 100%;
   background: #2e2e2e;
@@ -502,14 +509,21 @@ h5 {
 .store-card-summary {
   width: 98%;
   font-size: 0.65rem;
-  line-height: 1.3rem;
+  line-height: 1rem;
+  margin-top: 0.4rem;
 }
+.store-card-summary-1 {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: normal;
+  margin-left: 3.5rem;
+}
+
 .store-card-summary-2 {
   display: inline-block;
   font-size: 0.65rem;
   font-weight: normal;
-  margin-top: -2rem;
-  margin-bottom: 0.7rem;
+  margin: 1rem 0 0.7rem 1.5rem;
 }
 .store-searchbox {
   font-size: 0.9rem;
@@ -591,6 +605,9 @@ picture {
 li {
   list-style-type: none;
 }
+.list-links {
+  font-size: 0.7rem;
+}
 .list-1 {
   flex-basis: 20%;
   margin-left: -1.9rem;
@@ -625,9 +642,9 @@ footer {
   padding-bottom: 0.5rem;
 }
 .footer-icons {
-  width: 2rem;
+  width: 1.5rem;
   height: 2rem;
-  /* margin-left: 0.8rem; */
+  margin-left: 0.3rem;
 }
 .main-footer-link,
 .sub-tag-text,
@@ -653,7 +670,7 @@ footer {
   text-align: center;
 }
 .footer-images {
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   width: 70%;
 }
 .store-searchbox::placeholder {
