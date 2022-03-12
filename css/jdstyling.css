@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  /* outline: solid 1px red; */
+
 }
 body {
   width: 100%;
@@ -231,10 +231,6 @@ nav a:active {
 }
 .catalogue-link{ 
    font-weight: 400;
-}
-/* .seed { */
-  font-size: 1.2rem;
-  font-weight: normal;
 }
 .catalogue-link:hover {
   text-decoration: none;
